@@ -8,10 +8,10 @@ import java.util.concurrent.locks.*;
 public class concurrent_rectangle_drawing {
 
     // Parameters
-    public static int n = 1;
-    public static int width;
-    public static int height;
-    public static volatile int k;
+    public static int n = 1; // number of threads
+    public static int width; // image width in pixel
+    public static int height; // image height in pixel
+    public static volatile int k; // number of threads launched to draw rectangles
 
     static BufferedImage outputimage;
     static LinkedList<Rectangle> rectangles = new LinkedList<Rectangle>();
