@@ -15,11 +15,11 @@ A performance plot of the relative speedup of the multithreaded versions over th
 In terminal, type the commands below to run this program properly:
 ```
 javac concurrent_rectangle_drawing.java
-java concurrent_rectangle_drawing width height n k  
+java concurrent_rectangle_drawing width height #threads #rectangles  
 ```
 
 e.g.
 ```
 javac concurrent_rectangle_drawing.java
-java concurrent_rectangle_drawing 500 500 100 3 
+java concurrent_rectangle_drawing 500 500 3 180 
 ```
